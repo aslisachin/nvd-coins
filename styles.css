@@ -56,3 +56,26 @@ h1 {
 .coins {
   font-size: 45px;
 }
+#buttons {
+  margin-top: 20px;
+}
+.buttons-group {
+  width: 100%;
+  margin: auto;
+}
+.inline-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 25px;
+  width: 45%;
+  color: var(--purple);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  border: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
