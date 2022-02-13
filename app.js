@@ -1,0 +1,1 @@
+const btnPanel = document.getElementById("buttons");
