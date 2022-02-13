@@ -6,7 +6,7 @@ const editBTN = document.getElementById("editBTN");
 // Scripts
 
 $("#redeemBTN").click(function(){
-    alert("Redeem Button Clicked");
+    $("#buttons").load("components/redeem.html");
 });
 
 $("#transferBTN").click(function(){
@@ -15,4 +15,9 @@ $("#transferBTN").click(function(){
 
 $("#editBTN").click(function(){
     alert("Edit Button Clicked");
-})
+});
+
+$("#gobackHOME").click(function(){
+    alert("Go Back");
+    $("#buttons").load(location.href + " #buttons");
+});
